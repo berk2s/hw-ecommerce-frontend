@@ -1,0 +1,4 @@
+$colors: ( white: #fff, blue-100: #0c2146, blue-70: #2264d1, gray-100: #19191d, black: #000, );
+@mixin themeColor($prop, $color) {
+    #{$prop}: map-get($colors, $color);
+}
